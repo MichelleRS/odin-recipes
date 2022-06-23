@@ -92,3 +92,20 @@ footer {
     text-align: center;
     line-height: 1rem;
 }
+
+/* add new-tab-icon after links opening in new tab */
+a[target="_blank"] {
+    background: url(images/new-tab-icon.png) no-repeat 100% 0;
+    background-size: 1rem 1rem;
+    padding-right: 1.188rem;
+  }
+
+/* hide content that will be read by screen readers */
+.sr-only {
+    position:absolute;
+    left:-10000px;
+    top: auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+}
