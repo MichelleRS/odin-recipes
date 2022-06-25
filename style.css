@@ -1,25 +1,23 @@
 body {
+    margin: 0px;
+    padding: 10px 200px 10px 200px;
     background-color: #FFFAFA;
+    font-family: Arial, Helvetica, sans-serif;
     color: rgb(26, 26, 26);
     font-size: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
-    padding: .5rem;
-    margin: 10px auto 10px auto;
     text-align: center;
-    /* prevents nav distortion with higher zoom percentages */
-    white-space: nowrap;
 }
 
 nav li {
-    display: inline;
-    color: rgb(26, 26, 26);
-    background-color: transparent;
-    margin-right: 10px;
-    padding: 10px;
+    display: inline-flex;
+    margin: 10px;
     border: 1px solid rgb(26, 26, 26);
+    padding: 10px;
+    background-color: transparent;
+    text-align: center;
 }
 
 nav a:link,
@@ -30,6 +28,11 @@ nav a:visited {
 
 nav a:hover {
     text-decoration: underline;
+}
+
+main,
+footer {
+    line-height: 1.5em;
 }
 
 h1, h2 {
@@ -78,13 +81,6 @@ img {
 img.align-center {
     display: block;
     margin: 0px auto;
-}
-
-main,
-footer {
-    width: 60%;
-    margin: 10px auto 10px auto;
-    line-height: 1.5em;
 }
 
 footer {
